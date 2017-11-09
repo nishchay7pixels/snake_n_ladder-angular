@@ -1,0 +1,34 @@
+
+<div id="container">
+  <div id="sideMenu">
+    <h1>Black and White</h1>
+
+    <ul class="menu">
+      <li>Player 1<span class="colorIcon red"></span></li>
+      <li>Wins <span class="notification">{{player1['wins']}}</span></li>
+      <li>Lose <span class="notification">{{player1['lose']}}</span></li>
+    </ul>
+
+    <ul class="menu">
+      <li>Player 2<span class="colorIcon green"></span></li>
+      <li>Wins <span class="notification">{{player2['wins']}}</span></li>
+      <li>Lose <span class="notification">{{player2['lose']}}</span></li>
+    </ul>
+    <ul class="menu">
+      <app-dice></app-dice>
+    </ul>
+
+  </div>
+  <div id="content">
+    <div id="titleBar">
+      <h2>Developed by 7PixelsIndia</h2>
+
+      <span class="controls " [ngClass]="{'activeControl' : chance==0}">Player 1</span>
+      <span class="controls" [ngClass]="{'activeControl' : chance==1}">Player 2</span>
+    </div>
+    <div class="mainChart">
+      <app-control-menu></app-control-menu>
+    </div>
+  </div>
+</div>
+

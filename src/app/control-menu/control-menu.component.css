@@ -1,0 +1,122 @@
+
+.chessboard {
+  vertical-align: middle;
+  width: 600px;
+  height: 600px;
+  border: 15px solid #202b40;
+  margin-bottom: 60px;
+
+}
+.black {
+  float: left;
+  width: 10%;
+  height: 10%;
+  background: #3bafda;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+}
+.white {
+  float: left;
+  width: 10%;
+  height: 10%;
+  background: #4fc1e9;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+}
+.arena{
+  background: -webkit-linear-gradient(#24eeff, #5580eb);
+  width: 600px;
+  height: 600px;
+}
+.final {
+  float: left;
+  width: 10%;
+  height: 10%;
+  background: #4a89dc;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+}
+.snake {
+  float: left;
+  width: 10%;
+  height: 10%;
+  background-color: #000000;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+}
+.snakeEnd {
+  float: left;
+  width: 10%;
+  height: 10%;
+  background-color: #1d1d1d;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+}
+.ladder {
+  float: left;
+  width: 10%;
+  height: 10%;
+  background-color: #f2f2f2;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+}
+.player1 {
+  background-image: url(../../assets/player1.png);
+  float: left;
+  width: 10%;
+  height: 10%;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left top;
+}
+.player2 {
+  background-image: url(../../assets/player2.png);
+  float: left;
+  width: 10%;
+  height: 10%;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left top;
+}
+.player1n2{
+  background-image: url(../../assets/player12.png);
+  float: left;
+  width: 10%;
+  height: 10%;
+  font-size:30px;
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left top;
+}
